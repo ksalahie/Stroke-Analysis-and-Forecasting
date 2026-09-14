@@ -14,7 +14,7 @@ PR AUC score: 0.2487360753406038
 Notes:
 
 ** At first, no result data could be obtained due to data imbalance, so the sample size was expanded using oversampler.
-Error rates began to emerge.
+Errors increased.
 
 ** Using one-hot encoding, categorical values transformed.
 
