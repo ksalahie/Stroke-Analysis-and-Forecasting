@@ -26,10 +26,10 @@ logistic regression is a suitable algorithm to use.
 
 
 ** There were approximately 200 missing BMI values, and no significant correlation could be found between BMI and other features.
-Therefore, instead of imputing the missing BMIs from other features, the mean of the remaining 4900 BMIs was used for imputation.
-This approach yielded good results, but higher accuracy was achieved by dropping all rows with missing BMI values.
-** Didn't touch outliers.
-** No feature selection, engineering.
+Therefore, instead of inputing the missing BMIs from other features, the mean of the remaining 4900 BMIs was used for imputation.
+This approach yielded decent results, but higher accuracy was achieved by dropping all rows with missing BMI values.
+** Outliers were ignored.
+** No feature selection engineering.
 
 -------
 
